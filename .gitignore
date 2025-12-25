@@ -1,0 +1,5 @@
+*.o
+*.a
+*.so
+examples/sign_verify
+signature.json
