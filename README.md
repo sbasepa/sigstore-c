@@ -1,6 +1,8 @@
 # sigstore-c
 
-A C library for signing files and logging to the [Sigstore](https://sigstore.dev) Rekor transparency log.
+> **Note:** This is an unofficial, personal project and is not affiliated with the [Sigstore](https://sigstore.dev) project. It implements only a small subset of Sigstore functionality—specifically, signing files with ephemeral keys and logging to the Rekor transparency log. For the full Sigstore experience (Fulcio certificates, OIDC identity, policy verification, etc.), use the official [sigstore-go](https://github.com/sigstore/sigstore-go) or [sigstore-python](https://github.com/sigstore/sigstore-python) libraries.
+
+A minimal C library for signing files and logging to the Rekor transparency log.
 
 ## Features
 
